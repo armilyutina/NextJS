@@ -3,15 +3,15 @@ import classes from "../../styles/PostModel.module.css"
 const PostModel = ({ children, post }) => {
     return  (
         <div className = {classes.card}>
-            <div className = {classes.container}>
+            <div >
                 <div className = {classes.wrapper}>
                     <div className = {classes.title}>
                         {children}
                     </div>
-                    <div className = {classes.text}>
-                        {post.body}
+                    <div >
+                        
                     </div>
-                    <div className = {classes.author}>
+                    <div >
                         {post.author}
                     </div>
                 </div>

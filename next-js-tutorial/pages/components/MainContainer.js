@@ -4,11 +4,11 @@ import classes from "../../styles/MainContainer.module.css"
 
 
 
-const MainContainer = ({ children, keywords }) => {
+const MainContainer = ({ children }) => {
     return(
-        <div className = {classes.body}>
+        <div>
             <Head>
-                <meta keywords = {`nextJS, armilyutina ' + ${keywords} `}></meta>
+                <meta keywords = {`nextJS, armilyutina`}></meta>
                 <title>NextJS Tutorial</title>
             </Head>
 
