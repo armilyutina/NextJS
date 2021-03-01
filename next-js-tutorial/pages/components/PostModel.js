@@ -5,14 +5,13 @@ const PostModel = ({ children, post }) => {
         <div className = {classes.card}>
             <div >
                 <div className = {classes.wrapper}>
-                    <div className = {classes.title}>
+                    <div >
                         {children}
                     </div>
                     <div >
-                        
+                        {post}
                     </div>
                     <div >
-                        {post.author}
                     </div>
                 </div>
             </div>
